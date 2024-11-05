@@ -28,7 +28,7 @@ try:
         
         job_title = trabajo.find_element(By.CLASS_NAME, "jobTitle").text
        
-        company_name = trabajo.find_element(By.CLASS_NAME, "company_name").text
+        company_name = trabajo.find_element(By.CLASS_NAME, "company_location").text
         print(f"Trabajo: {job_title}")
         print(f"Empresa: {company_name}")
         print("-" * 40)
